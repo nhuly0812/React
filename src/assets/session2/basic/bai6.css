@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    background-color:orangered;
+    justify-content: center;
+    gap:20px;
+    padding:10px
+
+
+}
+.itemMenu{
+    flex-direction: row;
+    color:white;
+}
+.itemNew{
+    color:black;
+}

@@ -1,0 +1,13 @@
+.box{
+    padding: 10px;
+    color: rgb(175, 175, 175);
+
+}
+.boxNew1{
+    border:1px solid black;
+    color:black;
+}
+.boxNew2{
+    border:1px solid rgb(175, 175, 175) ;
+
+}
