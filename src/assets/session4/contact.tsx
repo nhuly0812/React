@@ -4,9 +4,9 @@ type TContact ={
 }
 const Contact =({item2, item3}:TContact)=>{
     return (
-        <div>
+        <div className="leading-6">
          
-            <li>{item2}<br/>
+            <li className="text-left">{item2}<br/>
                 {item3}
             </li>
         </div>

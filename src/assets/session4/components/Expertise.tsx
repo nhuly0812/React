@@ -9,11 +9,11 @@ const ItemExpertise = ({name,rank}:TExpertise)=>{
     return(
         <li className="flex">
             <span className="name">{name}</span>
-            <span className="rank flex">
+            <span className="rank flex ml-20 ">
                 {
                     dots.map((dot)=>{
                        if(dot <= rank){
-                        return( <span className="w-[10px] h-[10px] rounded-full bg-amber-500 block"></span>)
+                        return( <span className="w-[10px] h-[10px] rounded-full bg-amber-500 block "></span>)
                        }else{
                         return(<span key={dot} className="w-[10px] h-[10px] rounded-full bg-white block"></span>)
                        
