@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .contentRight{
+        @apply w-80 bg-blue-900 justify-center pl-16 pb-10 shadow-2xl
+    }
+    .contentLeft{
+        @apply w-3/5 bg-white text-black p-20
+    }
+    .divimg{
+        @apply w-48 h-52 flex justify-center text-center mt-10
+    }
+    .image{
+        @apply w-48 h-44 rounded-full 
+    }
+
+    .tt {
+        @apply text-blue-900 text-4xl leading-10;
+    }
+    .tt-2{
+        @apply font-bold text-5xl;
+    }
+    .tt-3{
+        @apply text-base
+    }
+
+    
+   
+
+}
+
+

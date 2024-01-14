@@ -1,16 +1,18 @@
-import AboutMe from "./aboutMe";
+import AboutMe from "./components/aboutMe";
 import CvExpertise from "./components/Expertise";
-import Contact from "./contact";
-import Titles from "./titles";
-
-
-const MainSessinon4 = ()=>{
+import Contact from "./components/contact";
+import Titles from "./components/titles";
+import TitleMain from "./components/titleMain";
+import "./style.css";
+const MainSession4 = ()=>{
     return (
 
            <div  className=" mx-auto flex w-5/6 justify-center bg-blue-900 text-white p-10">
-           <div className="contentRight w-80 bg-blue-900 justify-center pl-16 pb-10 shadow-2xl">
+           <div className="contentRight">
                  {/* CONTACT */}
-                 <img className="w-40 h-36 rounded-full mt-10 mr-10" src="https://bizweb.dktcdn.net/100/301/794/files/tiem-anh-mau-sieu-toc-phuong-321041.jpg?v=1615432941061" alt="" />
+                 <div className="divimg">
+                 <img className="image" src="https://bizweb.dktcdn.net/100/301/794/files/tiem-anh-mau-sieu-toc-phuong-321041.jpg?v=1615432941061" alt="" />
+                 </div>
         <Titles lable="CONTACT" />         
         <Contact item2="Phone" item3="+9033984774747"/>
         <Contact  item2="Email" item3="youremail.@gmail.com"/>
@@ -31,7 +33,11 @@ const MainSessinon4 = ()=>{
             </div>
 
 
-            <div className="contentLeft w-3/5 bg-white text-black p-10">
+            <div className="contentLeft ">
+                <TitleMain titleH1="AMANDA"/>
+                <TitleMain titleH2="CASSIE"/>
+                <TitleMain titleH3="WEB DEVERLOPER"/>
+
             <Titles lable="ABOUT ME" bienthe="bl"/>         
                 <AboutMe content="Whereas disregard and contempt for human rights have resulted Whereas disregard and contempt for human rights have resulted ,Whereas disregard and contempt for human rights have resulted Whereas disregard and contempt for human rights have resulted,Whereas disregard and contempt for human rights have resulted Whereas disregard and contempt for human rights have resulted"/>
                 <div>
@@ -55,4 +61,4 @@ const MainSessinon4 = ()=>{
         
     )
 }
-export default MainSessinon4
+export default MainSession4

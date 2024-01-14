@@ -19,7 +19,18 @@ type TButton = {
     //Props
     //dùng Destructuring const {lablel} = props => sd lablel
 function Button({ lablel }:TButton){
-      return <button>{lablel}</button>
+      return <div>
+        <button>{lablel}</button>
+
+
+
+
+      <button className="btn">Login</button>;
+      <button className="btn btn-primary">Đăng ký</button>;
+      <input type="text" placeholder='email' />
+      <div className='bg-sky-100 pdy-2'>hellllllllllo</div>
+      </div>
+
 }
     //Cách 1 defautlProps( đưa gtri mặc định cho props)
     function Button2({ lablel = "Nhuly" }:TButton){
@@ -85,6 +96,7 @@ function App() {
     <Button2/>
     <ProductList/>
     <Todolist/>
+    
     </>
   )
 }
